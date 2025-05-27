@@ -52,8 +52,8 @@ collab.ceb will be a user-friendly social media platform designed to meet the sp
    - Use the search bar to find specific NGOs, events, or opportunities based on categories, keywords, or locations.
 
 ## Tables/Relations
-### Users
-#### Attributes:
+1. **Users**
+Attributes:
 - user_id (PK)
 - name
 - email
@@ -62,8 +62,8 @@ collab.ceb will be a user-friendly social media platform designed to meet the sp
 - profile_picture
 - bio
 - created_at
-### NGOs
-#### Attributes:
+2. **NGOs**
+Attributes:
 - ngo_id (PK)
 - user_id (FK to Users)
 - name
@@ -73,16 +73,16 @@ collab.ceb will be a user-friendly social media platform designed to meet the sp
 - website
 - profile_picture
 - created_at
-### Posts
-#### Attributes:
+3. **Posts**
+Attributes:
 - post_id (PK)
 - ngo_id (FK to NGOs)
 - title
 - content
 - created_at
 - updated_at
-### Events
-#### Attributes:
+4. **Events**
+Attributes:
 - event_id (PK)
 - ngo_id (FK to NGOs)
 - title
@@ -92,21 +92,21 @@ collab.ceb will be a user-friendly social media platform designed to meet the sp
 - volunteer_limit
 - created_at
 - updated_at
-### Volunteer_Applications
-#### Attributes:
+5. **Volunteer_Applications**
+Attributes:
 - application_id (PK)
 - user_id (FK to Users)
 - event_id (FK to Events)
 - status
 - applied_at
-### Comments
-#### Attributes:
+6. **Comments**
+Attributes:
 - comment_id (PK)
 - post_id (FK to Posts)
 - user_id (FK to Users)
 - content
 - created_at
-### Likes (optional)
+7. **Likes** (optional)
 
 ## Project Setup
 ### Prerequisites
