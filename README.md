@@ -1,4 +1,4 @@
-# COLLAB.CEB
+# collab.ceb
 
 ## Introduction/Rationale
 In Cebu City, Non-Governmental Organizations (NGOs) play a significant role in addressing various social, environmental, and humanitarian issues. However, there is a lack of a centralized platform that facilitates collaboration and communication between these organizations and their volunteers. Many NGOs struggle with finding volunteers, organizing events, and sharing important updates with the community. Additionally, there is no single space for these organizations to connect and collaborate on projects, share resources, or discuss common goals.
