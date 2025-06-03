@@ -29,6 +29,7 @@ const Comments = () => {
                                 <span className="text-gray-300">|</span>
                                 <span className="text-gray-500">456 Likes</span>
                             </div>
+                            <div className="">Reply</div>
                             <div className=""></div>
                         </div>
                     </div>
