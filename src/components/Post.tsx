@@ -7,7 +7,7 @@ const Post = () => {
             {/* USER */}
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
-                    <Image src="https://images.pexels.com/photos/32277444/pexels-photo-32277444/free-photo-of-black-cat-on-geometric-steps-in-istanbul.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" width={40} height={40} alt="" className="w-10 h-10 rounded-full" />
+                    <Image src="https://images.pexels.com/photos/32203744/pexels-photo-32203744/free-photo-of-majestic-black-cat-strolling-through-meadow.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" width={40} height={40} alt="" className="w-10 h-10 rounded-full" />
                     <span className="font-medium">John McClane</span>
                 </div>
                 <Image src="/more.png" width={16} height={16} alt="" />
